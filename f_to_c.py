@@ -16,7 +16,7 @@ print("****** Fahrenheit to Celsius Converter ******")
 temp_f = float(input("Enter the temperature in Fahrenheit: "))
 
 # compute celsius
-temp_c = (5/9) * (temp_f - 32)  
+temp_c = (5/9) * (temp_f-32)  
 
 # output celsius
 print("The temperature in Celsius is " + str(temp_c) + "°.")
